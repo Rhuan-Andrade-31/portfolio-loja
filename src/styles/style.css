@@ -4,7 +4,7 @@ body{
     font-family: poppinsregular;
     max-width: 1280px;
     margin: 0 auto;
-    padding: 5px;
+    padding: 50px;
 }
 
 header{
@@ -16,12 +16,12 @@ header{
 
 #title{
     flex-direction: column;
-    line-height: 15px;
+    line-height: 1px;
 }
 
 li{
     display: inline-block;
-    margin: 10px;
+    margin: 1px;
 }
 
 a{
@@ -34,8 +34,8 @@ a:hover{
 }
 
 #inscreva-se-btn{
-    border: 2px solid rgb(132, 14, 201);
-    padding: 10px;
+    border: 0px solid rgb(132, 14, 201);
+    padding: 5px;
     border-radius: 15px;
 }
 
@@ -45,6 +45,7 @@ a:hover{
 }
 
 h1{
+    line-height: 25px;
     font-weight: 200;
 }
 
@@ -55,8 +56,8 @@ main{
 }
 
 h2{
-    font-size: 56px;
-    line-height: 10px;
+    font-size: 50;
+    line-height: 20px;
     font-family: poppinsmedium;
 }
 
